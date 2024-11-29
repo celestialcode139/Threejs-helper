@@ -1,6 +1,6 @@
 {
   "name": "threejs-helper",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A lightweight Three.js utility package",
   "type": "module",
   "main": "src/index.js",
@@ -30,10 +30,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/three-js-package.git"
+    "url": "https://github.com/celestialcode139/Threejs-helper"
   },
   "bugs": {
-    "url": "https://github.com/your-username/three-js-package/issues"
+    "url": "https://github.com/celestialcode139/Threejs-helper"
   },
-  "homepage": "https://github.com/your-username/three-js-package#readme"
+  "homepage": "https://github.com/celestialcode139/Threejs-helper"
 }

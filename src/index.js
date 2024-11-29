@@ -84,6 +84,19 @@ export async function Tcontrol(mesh) {
     control.attach(mesh);
     scene.add(control);
     control.setMode("translate");
+    control.addEventListener("change", (e) => {
+      switch (control.mode) {
+        case "translate":
+          console.log(mesh.position);
+          break;
+        case "rotate":
+          console.log(mesh.rotation);
+          break;
+        case "scale":
+          console.log(mesh.scale);
+          break;
+      }
+    });
 
     window.addEventListener("keydown", function (event) {
       switch (event.key) {
